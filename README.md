@@ -34,7 +34,7 @@ pip install scikit-learn
 ```python
 pip install pillow
 ```
-6. Download the pre-trained models:  
+6. Download the pre-trained models: 
 6.1. InceptionV3:
 ```python
 from keras.applications import InceptionV3
@@ -45,9 +45,9 @@ model = InceptionV3(weights='imagenet')
 from keras.applications import MobileNetV3
 model = MobileNetV2(weights='imagenet')
 ```
-7. Run the code in Jupyter Notebook:  
+7. Run the code in Jupyter Notebook: 
 Launch Jupyter Notebook:
 ```bash
 jupyter notebook
 ```
-Open these code file (inception.ipynb, mobileNetV3.ipynb, thesis_final.ipynb) and execute the cells. 
+8. Open these code file (inception.ipynb, mobileNetV3.ipynb, thesis_final.ipynb) and execute the cells. 
