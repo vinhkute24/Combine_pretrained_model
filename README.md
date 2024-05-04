@@ -8,7 +8,7 @@ Here, I try to improve the process of transfer learning (TL) by combining two pr
 This guide provides step-by-step instructions on how to install the required dependencies for running the code in Jupyter Notebook. 
 
 ## Prerequisites
-- Python 3.x
+- Ensure that you have Python installed on your system. You can download Python from the official website: [Python Downloads](https://www.python.org/downloads/).
 - Jupyter Notebook
 
 ## Installation Steps
@@ -51,3 +51,12 @@ Launch Jupyter Notebook:
 jupyter notebook
 ```
 8. Open these code file (inception.ipynb, mobileNetV3.ipynb, thesis_final.ipynb) and execute the cells. 
+
+## Installation Guide for Running the demo code (demo.py)
+1. Install Required Libraries 
+   ```bash
+   #install Python Imaging Library (PIL)
+   pip install pillow
+   #thinkter install
+   pip install pytk
+   ```
