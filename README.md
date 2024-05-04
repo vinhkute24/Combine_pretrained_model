@@ -55,7 +55,7 @@ jupyter notebook
 ```
 8. Open these code file (inception.ipynb, mobileNetV3.ipynb, thesis_final.ipynb) and execute the cells. 
 
-## Installation Guide for Running the demo code (demo.py)
+## Installation Guide for Running the demo application (demo.py)
 1. Based on previous installed libraries, we just need install Python Imaging Library (PIL) to run this application
    ```bash
    #install Python Imaging Library (PIL)
