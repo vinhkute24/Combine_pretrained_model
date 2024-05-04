@@ -44,7 +44,7 @@ jupyter notebook
 7. Open these code file (inception.ipynb, mobileNetV3.ipynb, thesis_final.ipynb) and execute the cells. 
 
 ## Guide for Running the demo application (demo.py)
-1. Based on previous installed libraries, we can run the demo application to classify brain tumor from the combine CNNs models (MobileNetV3, InceptionV3)
+1. Based on previous installed libraries, we can run the demo application to classify brain tumor from the combine CNN model (MobileNetV3, InceptionV3)
    ```bash
    python demo.py
    ```
