@@ -1,7 +1,6 @@
-# Project Title: BRAIN TUMOR CLASSIFICATION USING COMBINATION PRETRAINED CONVOLUTIONAL NEURAL NETWORK (CNN) MODELS
+# Brain Tumor Classification Using Combination Pretrained Convolutional Neural Network (CNN) Models
 
-
-Here, I try to improve the process of transfer learning (TL) by combining two pre-trained CNN models which are InceptionV3, MobilenetV3 to detect of brain tumor.
+In this research, I try to improve the process of transfer learning (TL) by combining two pre-trained CNN models which are InceptionV3, MobilenetV3 to classify three types of brain tumor.
 
 ## Installation Guide for Running the Code in Jupyter Notebook
 
@@ -37,23 +36,12 @@ pip install scikit-learn
 ```python
 pip install pillow
 ```
-6. Download the pre-trained models:  
-6.1. InceptionV3:
-```python
-from keras.applications import InceptionV3
-model = InceptionV3(weights='imagenet')
-```
-6.2. MobileNetV3:
-```python
-from keras.applications import MobileNetV3
-model = MobileNetV2(weights='imagenet')
-```
-7. Run the code in Jupyter Notebook:  
+6. Run the code in Jupyter Notebook:  
 Launch Jupyter Notebook:
 ```bash
 jupyter notebook
 ```
-8. Open these code file (inception.ipynb, mobileNetV3.ipynb, thesis_final.ipynb) and execute the cells. 
+7. Open these code file (inception.ipynb, mobileNetV3.ipynb, thesis_final.ipynb) and execute the cells. 
 
 ## Installation Guide for Running the demo application (demo.py)
 1. Based on previous installed libraries, we just need install Python Imaging Library (PIL) to run this application
