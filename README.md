@@ -5,7 +5,7 @@ Here, I try to improve the process of transfer learning (TL) by combining two pr
 
 ## Installation Guide for Running the Code in Jupyter Notebook
 
-This guide provides step-by-step instructions on how to install the required dependencies for running the code in Jupyter Notebook. 
+This guide provides step-by-step instructions on how to install the required dependencies for running the code in Jupyter Notebook and running the demo python code. 
 
 ## Prerequisites
 - Ensure that you have Python installed on your system. You can download Python from the official website: [Python Downloads](https://www.python.org/downloads/).
@@ -59,4 +59,8 @@ jupyter notebook
    pip install pillow
    #thinkter install
    pip install pytk
+   ```
+2. Run the demo window application
+   ```bash
+   python demo.py
    ```
