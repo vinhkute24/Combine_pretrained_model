@@ -9,7 +9,10 @@ This guide provides step-by-step instructions on how to install the required dep
 
 ## Prerequisites
 - Ensure that you have Python installed on your system. You can download Python from the official website: [Python Downloads](https://www.python.org/downloads/).
-- Jupyter Notebook
+- Jupyter Notebook by using pip
+  ```bash
+  pip install jupyter
+  ```
 
 ## Installation Steps
 
